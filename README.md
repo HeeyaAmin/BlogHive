@@ -112,7 +112,8 @@ Save user downloads in database for history tracking
 
 Deployment to Vercel / Render / Fly.io
 
-🧑‍💻 Author
+🧑‍💻 Author:
+
 Heeya Amin
 
 Data Scientist & Software Developer
