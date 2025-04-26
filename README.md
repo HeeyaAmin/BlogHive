@@ -1,7 +1,4 @@
-📄 BlogHive - README.md (Markdown Version)
-markdown
-Copy
-Edit
+
 # BlogHive 🐝
 
 An AI-powered blog template generator where users can select interests (keywords) and receive blog templates — complete with title, description, image, and multilingual audio files!
