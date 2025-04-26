@@ -1,0 +1,14 @@
+body{
+    background-image: url('images/login_background.jpg');
+    background-size: cover;
+}
+
+.container{
+    padding: 100px;
+    text-align: center;
+}
+
+.form_class {
+    margin: auto;
+}
+

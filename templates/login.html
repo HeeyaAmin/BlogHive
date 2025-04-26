@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <base href="/">
+    <link rel="stylesheet" type="text/css" href="static/login_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@100..900&family=Satisfy&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+  <div class="container">
+    <form class="form_class col-md-4 col-md-offset-4" method="post" action="/login">
+
+        <div class="pb-5">
+            <h1 class="h3 mb-3 fw-normal" style="font-size: 45px; font-family: Roboto Slab, serif; font-optical-sizing: auto; font-weight: 600; font-style: normal; color: #2e0026;">Login to BlogHive</h1>
+            <h2 class="h3 mb-3 fw-normal" style="color: #2e0026; font-family: Fredoka, sans-serif; font-optical-sizing: auto; font-weight: 500; font-style: normal; font-variation-settings: width 100; font-size: 24px">Get started by choosing your interests</h2>
+
+        </div>
+
+
+
+        <div class="form-floating pb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email" required>
+          <label for="floatingInput">Email address</label>
+        </div>
+
+        <div class="form-floating pb-5">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
+          <label for="floatingPassword">Password</label>
+        </div>
+
+        <button class="btn py-2 mx-auto" style="background-color: #14a65f; color: white;" type="submit">Login</button>
+
+    </form>
+        <a href="/signup">Not an existing user? Sign up here</a>
+
+  </div>
+    <span style="margin:auto; display:table; border:1px; padding-top: 57px; color: #2e0026; font-family: Fredoka, sans-serif; font-weight: 400; font-style: normal; font-size: 18px">&copy; 2024 Heeya Amin</span>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
